@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE generatorConfiguration PUBLIC "-//mybatis.org//DTD MyBatis Generator Configuration 1.0//EN" "http://mybatis.org/dtd/mybatis-generator-config_1_0.dtd" >
+<generatorConfiguration>
+	<classPathEntry
+		location="/Users/chenxin/.m2/repository/mysql/mysql-connector-java/5.1.21/mysql-connector-java-5.1.21.jar" />
+	<context id="context1">
+		<jdbcConnection driverClass="com.mysql.jdbc.Driver"
+			connectionURL="jdbc:mysql://127.0.0.1:3306/dassmeta-weixin" userId="root"
+			password="" />
+		<javaModelGenerator targetPackage="com.dassmeta.weixin.common.dal.dataobject"
+			targetProject="dassmeta-weixin-common-dal" />
+		<sqlMapGenerator targetPackage="com.dassmeta.weixin.common.dal.dataobject"
+			targetProject="dassmeta-weixin-common-dal" />
+		<javaClientGenerator targetPackage="com.dassmeta.weixin.common.dal.dataobject"
+			targetProject="dassmeta-weixin-common-dal" type="XMLMAPPER" />
+		<table schema="express_query_result" tableName="express_query_result">
+		</table>
+	</context>
+</generatorConfiguration>

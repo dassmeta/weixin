@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><project-modules id="moduleCoreId" project-version="1.5.0">
+    <wb-module deploy-name="dassmeta-weixin-web-home">
+        <wb-resource deploy-path="/" source-path="/target/m2e-wtp/web-resources"/>
+        <wb-resource deploy-path="/" source-path="/src/main/webapp" tag="defaultRootSource"/>
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/src/main/java"/>
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/src/main/resources"/>
+        <dependent-module archiveName="dassmeta-weixin-core-service-1.0.0.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/dassmeta-weixin-core-service/dassmeta-weixin-core-service">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="dassmeta-weixin-core-model-1.0.0.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/dassmeta-weixin-core-model/dassmeta-weixin-core-model">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="dassmeta-util-1.0.0.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/dassmeta-util/dassmeta-util">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <property name="context-root" value="dassmeta-weixin-web-home"/>
+        <property name="java-output-path" value="/dassmeta-weixin-web-home/target/classes"/>
+    </wb-module>
+</project-modules>
